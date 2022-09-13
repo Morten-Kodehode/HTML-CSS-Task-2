@@ -7,5 +7,143 @@
     <link rel="stylesheet" href="style.css" />
     <title>HTML/CSS Task 2</title>
   </head>
-  <body></body>
+  <body>
+    <!-- PRE -->
+    <section class="container">
+      <h2 class="container__title">PRE Tag</h2>
+      <p class="container__definition">
+        Definition of the pre tag: <br />
+        Text in a <em>PRE</em> element is displayed in a fixed-width font, and
+        the text preserves both spaces and line breaks. The text will be
+        displayed exactly as written in the HTML source code.
+      </p>
+      <hr />
+      <p class="container__example">Example:</p>
+      <pre>
+        Hello,
+
+        My name is Morten
+
+        I'm from Norway.
+      </pre>
+    </section>
+    <!-- KBD -->
+    <section class="container">
+      <h2 class="container__title">KBD Tag</h2>
+      <p class="container__definition">
+        Definition of the pre tag: <br />The <em>KBD</em> tag is used to define
+        keyboard input. The content inside is displayed in the browser's default
+        monospace font.
+      </p>
+      <hr />
+      <p class="container__example">Example:</p>
+      <p>
+        Press <kbd class="keyboardBtn">ctrl</kbd> +
+        <kbd class="keyboardBtn">s</kbd> to save your progress!
+      </p>
+    </section>
+    <!-- CODE -->
+    <section class="container">
+      <h2 class="container__title">CODE Tag</h2>
+      <p class="container__definition">
+        Definition of the pre tag: <br />The <em>CODE</em> tag is used to define
+        a piece of computer code. The content inside is displayed in the
+        browser's default monospace font.
+      </p>
+      <hr />
+      <p class="container__example">Example:</p>
+      <p>
+        If you want to create buttons, then your go-to tag will be
+        <code>button</code>.
+      </p>
+    </section>
+    <!-- VAR -->
+    <section class="container">
+      <h2 class="container__title">VAR Tag</h2>
+      <p class="container__definition">
+        Definition of the pre tag: <br />The <em>VAR</em> tag is used to defines
+        a variable in programming or in a mathematical expression. The content
+        inside is typically displayed in italic.
+      </p>
+      <hr />
+      <p class="container__example">Example:</p>
+      <p>
+        The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where
+        <var>b</var> is the base, and <var>h</var> is the vertical height.
+      </p>
+    </section>
+    <!-- SAMP -->
+    <section class="container">
+      <h2 class="container__title">SAMP Tag</h2>
+      <p class="container__definition">
+        Definition of the pre tag: <br />The <em>SAMP</em> tag is used to define
+        sample output from a computer program. The content inside is displayed
+        in the browser's default monospace font.
+      </p>
+      <hr />
+      <p class="container__example">Example:</p>
+      <p>
+        Something went wrong. <br />
+        <samp>Execution failed. Please restart!</samp>
+      </p>
+    </section>
+    <!-- Accessibility -->
+    <section class="container">
+      <h2 class="container__title">FIGURE Tag w/ accessibility</h2>
+      <p class="container__definition">
+        Definition of the figure tag: <br />The <em>FIGURE</em> tag specifies
+        self-contained content, like illustrations, diagrams, photos, code
+        listings, etc. <br />
+        Combine this with accessibility properties like <em>ARIA</em> and
+        <em>aria-labelledby</em> for images to be read by screen readers.
+      </p>
+      <hr />
+      <p class="container__example">Example:</p>
+      <figure role="img" aria-labelledby="pikachu">
+        <pre>
+          ⠸⣷⣦⠤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⠀⠀⠀
+⠀⠙⣿⡄⠈⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠔⠊⠉⣿⡿⠁⠀⠀⠀
+⠀⠀⠈⠣⡀⠀⠀⠑⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠊⠁⠀⠀⣰⠟⠀⠀⠀⣀⣀
+⠀⠀⠀⠀⠈⠢⣄⠀⡈⠒⠊⠉⠁⠀⠈⠉⠑⠚⠀⠀⣀⠔⢊⣠⠤⠒⠊⠉⠀⡜
+⠀⠀⠀⠀⠀⠀⠀⡽⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠩⡔⠊⠁⠀⠀⠀⠀⠀⠀⠇
+⠀⠀⠀⠀⠀⠀⠀⡇⢠⡤⢄⠀⠀⠀⠀⠀⡠⢤⣄⠀⡇⠀⠀⠀⠀⠀⠀⠀⢰⠀
+⠀⠀⠀⠀⠀⠀⢀⠇⠹⠿⠟⠀⠀⠤⠀⠀⠻⠿⠟⠀⣇⠀⠀⡀⠠⠄⠒⠊⠁⠀
+⠀⠀⠀⠀⠀⠀⢸⣿⣿⡆⠀⠰⠤⠖⠦⠴⠀⢀⣶⣿⣿⠀⠙⢄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢻⣿⠃⠀⠀⠀⠀⠀⠀⠀⠈⠿⡿⠛⢄⠀⠀⠱⣄⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢸⠈⠓⠦⠀⣀⣀⣀⠀⡠⠴⠊⠹⡞⣁⠤⠒⠉⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣠⠃⠀⠀⠀⠀⡌⠉⠉⡤⠀⠀⠀⠀⢻⠿⠆⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠰⠁⡀⠀⠀⠀⠀⢸⠀⢰⠃⠀⠀⠀⢠⠀⢣⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢶⣗⠧⡀⢳⠀⠀⠀⠀⢸⣀⣸⠀⠀⠀⢀⡜⠀⣸⢤⣶⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠈⠻⣿⣦⣈⣧⡀⠀⠀⢸⣿⣿⠀⠀⢀⣼⡀⣨⣿⡿⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠈⠻⠿⠿⠓⠄⠤⠘⠉⠙⠤⢀⠾⠿⣿⠟⠋
+        </pre>
+        <figcaption id="pikachu">ascii art of the pokemom, Pikachu</figcaption>
+      </figure>
+    </section>
+    <!-- Special formatting tags -->
+    <section class="container">
+      <h2 class="container__title">Special formatting tags</h2>
+      <p class="container__definition">
+        Different tags for special formatting needs.
+      </p>
+      <hr />
+      <p class="container__example">Example:</p>
+      <p>The <em>b</em> tag for <b>bold text without importance</b></p>
+      <p>The <em>strong</em> tag for <strong>important text</strong></p>
+      <p>The <em>i</em> tag for <i>text without importance</i></p>
+      <p>The <em>em</em> tag for <em>emphasizedtext</em></p>
+      <p>The <em>mark</em> tag for <mark>highlighted text</mark></p>
+      <p>The <em>small</em> tag for <small>small text</small></p>
+      <p>The <em>del</em> tag for <del>deleted/strike through text</del></p>
+      <p>The <em>ins</em> tag for <ins>inserted text</ins></p>
+      <p>The <em>sub</em> tag for 5<sub>9</sub></p>
+      <p>The <em>sub</em> tag for 9<sup>5</sup></p>
+    </section>
+    <section class="container">
+      <h2 class="container__title">Exclaimer:</h2>
+      <p class="container__definition">
+        Borrowed definitions from w3schools and PDF
+      </p>
+    </section>
+  </body>
 </html>
